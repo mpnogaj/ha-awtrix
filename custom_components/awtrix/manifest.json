@@ -2,11 +2,11 @@
   "domain": "awtrix",
   "name": "Awtrix",
   "after_dependencies": ["mqtt"],
-  "codeowners": ["@miguelangellv"],
+  "codeowners": ["@mpnogaj"],
   "config_flow": true,
-  "documentation": "https://github.com/MiguelAngelLV/ha-awtrix",
+  "documentation": "https://github.com/mpnogaj/ha-awtrix",
   "iot_class": "local_polling",
-  "issue_tracker": "https://github.com/MiguelAngelLV/ha-awtrix/issues",
+  "issue_tracker": "https://github.com/mpnogaj/ha-awtrix/issues",
   "requirements": [],
   "version": "0.6"
 }
