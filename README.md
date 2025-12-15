@@ -1,4 +1,7 @@
+
 # HA Awtrix
+
+Based of [this repo](https://github.com/MiguelAngelLV/ha-awtrix/)
 
 This component uses the MQTT API of [Awtrix](https://blueforcer.github.io/awtrix3/#/) in Home Assistant easily by adding several additional actions.
 
@@ -8,7 +11,7 @@ This component uses the MQTT API of [Awtrix](https://blueforcer.github.io/awtrix
 
 You can add the component automatically using HACS by clicking the following link:
 
-[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=miguelangellv&repository=ha-awtrix&category=integration)
+[![Open your Home Assistant instance and open a repository inside the Home Assistant Community Store.](https://my.home-assistant.io/badges/hacs_repository.svg)](https://my.home-assistant.io/redirect/hacs_repository/?owner=mpnogaj&repository=ha-awtrix&category=integration)
 
 ### Manual
 
@@ -19,10 +22,6 @@ You can install the component manually by copying the contents of the `custom_co
 Once installed, go to _Devices and Services -> Add Integration_ and search for _Awtrix_. After adding it, you will have the new actions available.
 
 You MUST have configured your device MQTT settings to connect correctly to your mqtt server before being able to see the device using the awtrix actions bellow. If you skip this step you'll have "no matching device" message in the dropdown menu of the actions.
-
-Ex. 
-
-<img width="461" height="286" alt="image" src="https://github.com/user-attachments/assets/9c20324f-13e6-48f4-9ff4-26df2b796613" />
 
 Click, save configurations and then Restart ESP. You can use default mqtt user/pass but it's a good security practice to add one dedicated to this device in the addon configuration.
 
@@ -39,3 +38,7 @@ The `awtrix.notification` action allows you to send notifications to the Awtrix 
 ### Awtrix Custom APP
 
 The `awtrix.custom_app` action allows you to create and update custom Awtrix applications. You can create custom applications with various elements such as text, icons, etc.
+
+### Awtrix Switch APP
+
+The `awtrix.switch_app` action allows you to switch to any app
